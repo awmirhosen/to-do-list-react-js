@@ -1,0 +1,127 @@
+#root {
+width: 100%;
+height: 100vh;
+    /*background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);*/
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+    background-blend-mode: multiply;
+font-family: justMore !important;
+}
+
+.bg-custom {
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+}
+
+.bg-custom2 {
+    background-image: linear-gradient(-225deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%);
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+@font-face {
+    font-family: justMore;
+    src: url("../font/Alegreya-VariableFont_wght.ttf");
+}
+
+.App {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+
+}
+
+.text-custom1 {
+    color: whitesmoke;
+}
+
+.plus-wrapper > div {
+    width: 100px !important;
+    height: 100px !important;
+    font-size: 52px;
+    display: flex;
+    cursor: pointer;
+    border: #b02a37 solid 2px;
+    justify-content: center;
+    align-items: center;
+}
+
+.design-border {
+    width: 100%;
+    height: 8px;
+    /*background-image: linear-gradient(to right, #434343 0%, black 100%);*/
+    background-image: linear-gradient(-225deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%);
+}
+
+.text-input {
+ background-color: inherit;
+    outline: none !important;
+    border: 3px solid whitesmoke;
+    color: white;
+    opacity: 83%;
+    font-size: 24px;
+    border-radius: 5px;
+}
+
+.App > div {
+    width: 100%;
+}
+
+.time-wrapper {
+    width: 100%;
+    padding: 30px;
+    font-size: 50px;
+    border: white 1px solid;
+    border-radius: 18px;
+    margin: 20px 0;
+}
+
+.btn-wrapper {
+    width: 100%;
+    justify-content: center;
+    padding: 20px;
+    font-size: 35px;
+}
+
+.start-btn {
+    padding: 5px 24px;
+    background-color: inherit;
+    border: 1px solid green;
+    color: green;
+    border-radius: 12px;
+}
+
+.stop-btn {
+    padding: 5px 24px;
+    background-color: inherit;
+    border: 1px solid red;
+    color: red;
+    border-radius: 12px;
+}
+
+.resume-btn {
+    padding: 5px 24px;
+    background-color: inherit;
+    border: 1px solid white;
+    color: white;
+    border-radius: 12px;
+    margin: 10px 40px;
+}
+
+.reset-btn {
+    padding: 5px 24px;
+    background-color: inherit;
+    border: 1px solid yellow;
+    color: yellow;
+    border-radius: 12px;
+}
+
+.main_time_list {
+font-size: 22px;
+    padding: 20px;
+}
